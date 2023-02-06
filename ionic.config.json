@@ -1,0 +1,7 @@
+{
+  "name": "BigWebApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
