@@ -1,0 +1,40 @@
+<ion-card class = "image">
+  <img alt ="Silhouette of mountains" src="https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg?t=1673342039" />
+  <ion-card-header>
+    <ion-card-title class = title>Valheim</ion-card-title>
+    <ion-card-subtitle>Mistlands</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    Get online boys its Valheim time!
+  </ion-card-content>
+</ion-card>
+
+<ion-content>
+<ion-item class = "emailLogin" fill="solid">
+  <ion-label position="floating">Email</ion-label>
+  <ion-input type="email" ngModel email></ion-input>
+  <ion-note slot="helper">Enter email</ion-note>
+  <ion-note slot="error">Invalid email</ion-note>
+</ion-item>
+
+<ion-item class = "passwordLogin" fill="solid">
+  <ion-label position="floating">Password</ion-label>
+  <ion-input type="password" ngModel email></ion-input>
+  <ion-note slot="helper">Enter password</ion-note>
+  <ion-note slot="error">Invalid password</ion-note>
+</ion-item>
+
+<ion-item class = "staySigned">
+  <ion-checkbox slot="start"></ion-checkbox>
+  <ion-label>Stay signed in</ion-label>
+</ion-item>
+
+<ion-col ><ion-button id = "button1" (click)="go_to_main()" >Log In</ion-button></ion-col>
+
+
+</ion-content>
+
+  
+
+

@@ -1,1 +1,43 @@
+.image {
+    display: block;
+    margin: auto;
+    border: 1px solid #ab2222;
+    border-radius: 8px;
+    padding: 30px;
+    //opacity: 0.5;
+    //bottom: 30%;
+}
 
+.title {
+    display: block;
+    margin: auto;
+    //width: 20%;
+}
+
+.emailLogin {
+    display: block;
+    margin: auto;
+    //top: 40%;
+}
+
+.passwordLogin {
+    display: block;
+    margin: auto;
+    //top: 29%;
+}
+
+.staySigned {
+    display: block;
+    margin: auto;
+    //bottom: 26%;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    
+}
+
+body {
+    background-color: lightblue;
+  }
